@@ -14,5 +14,19 @@
         <li id="li3"><a href="https://www.google.com/search?&q=noruega" target="_blank">Noruega</a></li>
         <li id="li4"><a href="https://www.google.com/search?&q=dinamarca" target="_blank">Dinamarca</a></li>
     </ul>
+    <div class="window-notice" id="window-notice">
+        <div class="content">
+            <div class="content-text">Este sitio utiliza cookies para obtener la mejor experiencia en nuestra web (O para subir nota ;D). 
+            <a href="https://www.google.com/search?q=gatitos+monos&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjc3MCSo6z1AhVCExoKHUonBH0Q_AUoAXoECAEQAw&biw=1274&bih=857">Leer más.</a></div>
+            <div class="content-buttons"><a href="#" id="close-button">Aceptar</a></div>
+        </div>
+    </div>
+    <script>
+        let close_button = document.getElementById('close-button');
+        close_button.addEventListener("click", function(e) {
+            e.preventDefault();
+            document.getElementById("window-notice").style.display = "none";
+        });
+    </script>
 </body>
 </html>
