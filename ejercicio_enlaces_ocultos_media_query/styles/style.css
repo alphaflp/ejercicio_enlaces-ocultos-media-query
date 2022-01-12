@@ -1,0 +1,25 @@
+body{
+    background-color: darkgrey;
+
+}
+li{
+    display: inline;
+    padding: 10px;
+    background-color: rgb(95, 95, 95);
+}
+@media (max-width: 1024px) {
+    #li1 {
+      display: none;
+    }
+}
+@media (max-width: 768px) {
+    #li2 {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    #li3 {
+        display: none;
+    }
+}
+  
