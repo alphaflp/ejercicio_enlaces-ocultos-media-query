@@ -1,1 +1,1 @@
-# ejercicio_enlaces-ocultos-media-query
+# Ejercicio enlaces ocultos con media query
